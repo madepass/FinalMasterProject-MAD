@@ -2,8 +2,6 @@
 
 This repository contains the scripts used to aggregate, pre-process, and analyze the EEG/LFP datasets. The project was supervised by Ignasi Cos at the University of Barcelona.
 
-Michael DePass
-
 #### Abstract
 
 The overall goal of the project was the principled characterization of neural states during movement execution before and after traumatic intervention (Muscimol inactivation
