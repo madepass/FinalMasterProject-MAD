@@ -24,7 +24,7 @@ Functional connectivity features yielded lower accuracies than spectral power fe
 though they far exceeded random chance. Finally, discriminative support networks
 were generated to further characterize the movement-related states.
 
-<p align="center"><img src="https://github.com/madepass/FinalMasterProject-MAD/blob/master/Report/figures/pipeline.PNG" align=middle width=645.87435pt height=348.58725pt/>
+<p align="center"><img src="https://github.com/madepass/FinalMasterProject-MAD/blob/master/Report/figures/pipeline.PNG" align=middle width=800pt height=200/>
 </p>
 <p align="center">
 <em>Pipeline for EEG/LFP classification.</em>
