@@ -6,13 +6,28 @@ Michael DePass
 
 #### Abstract
 
-Cardiovascular diseases (CVDs) are subject of interest among researchers and clin-icians  due  its  high  mortality  rate.   Cardiac  Magnetic  resonance  (CMR)  is  the  reference  for  clinicians  to  analyze  the  heart  tissues  by  visual  assessment  and  crudequantitative measures of the structures to dictate a diagnosis of the patient’s status. Radiomics is a novel image analysis technique extract a large number of quantitative features from CMR that provide insightful information of the heart structures to  support  clinicians  in  the  diagnosis  and  prognosis  of  these  diseases.   Previous studies have demonstrated the capacity of these features to obtain higher diagnosis accuracy than conventional methods. In this study, we cover in-depth Radiomicstechnique and explore two types of radiomics: Hand-Crafted Radiomics (HCR) and Deep Learning-based Radiomics (DLR). HCR computes a wide range of researcherdefined
-quantitative features that measure the shape, intensity, and texture of image regions of interest. DLR arefeatures extracted based in the training of Convolutional Neural Networks (CNNs). We  address  the  methodology for  the  extraction  of  the  features  for  both  methods and analyze the performance in the CVDs classification task with Machine Learn-ing (ML) algorithm. We also develop a pipeline for the fusion of these features withthe aim of collecting complementary information of the heart structures from both mentioned methods with the aim of improving diagnostic accuracy.  We apply this methodology with two benchmark medical datasets: ACDC Challenge dataset andUK BioBank with the availability of both CMR and the segmentation of the heart structures:  Myocardium  (MYO),  Right  Ventricle  (RV)  and  Left  Ventricle  (LV).  We perform an analysis of the results, discuss challenges and elaborate on future work.
+The overall goal of the project was the principled characterization of neural states during movement execution before and after traumatic intervention (Muscimol inactivation
+or stroke). To this end we developed a machine learning pipeline to perform
+neural state classification using high dimensional EEG and LFP data. These neural
+data were collected while NHP’s performed reward retrieval tasks involving reaching
+and grasping. An intervention was performed in the portion of the brain affecting
+movement of the right hand and the experiment was repeated. Three classification
+features were analyzed: spectral power, and functional connectivity which consisted
+of inter-signal covariance and correlation. These features were computed for
+nine frequency bands. Multinomial logistic regression (MLR) and 1-nearest neighbor
+(1-NN) classifiers were independently fit to each of the three types of classification
+features for all nine frequency bands (27 combinations). Classification performance
+was then analyzed in tasks of varying difficulty. MLR outperformed 1-NN
+and achieved AUC scores of above 0.8 for all tasks when fit to the highest frequency
+band power data. Lower frequency bands yielded considerably worse accuracies.
+Functional connectivity features yielded lower accuracies than spectral power features,
+though they far exceeded random chance. Finally, discriminative support networks
+were generated to further characterize the movement-related states.
 
-<p align="center"><img src="https://github.com/ahhm14/FinalMasterProject-AHHM/blob/master/X.%20Report/Figures/Fusion%20Pipeline%202.png" align=middle width=645.87435pt height=348.58725pt/>
+<p align="center"><img src="https://github.com/madepass/FinalMasterProject-MAD/blob/master/Report/figures/pipeline.PNG" align=middle width=645.87435pt height=348.58725pt/>
 </p>
 <p align="center">
-<em>Pipeline developed for the fusion of the two types of Radiomics.</em>
+<em>Pipeline for EEG/LFP classification.</em>
 </p>
 
 
@@ -23,12 +38,12 @@ quantitative features that measure the shape, intensity, and texture of image re
 > - EEG/LFP data
 
 ## Contributions
-Contributions are welcome! For bug reports or requests please submit an [submit an issue](https://github.com/ahhm14/FinalMasterProject-AHHM//issues).
+Contributions are welcome! For bug reports or requests please submit an [submit an issue](https://github.com/madepass/FinalMasterProject-MAD/issues).
 
 ## Contact
 Feel free to contact me to discuss any issues, questions or comments.
-* GitHub: [ahhm14](https://github.com/ahhm14)
-* Linkedin: [Alejandro Hernandez Matheus](https://www.linkedin.com/in/alejandro-hernandez-matheus/)
+* GitHub: [madepass](https://github.com/madepass)
+* Linkedin: [Michael DePass](www.linkedin.com/in/michael-depass)
 
 
 ## License
