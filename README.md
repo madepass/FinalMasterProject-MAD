@@ -41,7 +41,7 @@ Contributions are welcome! For bug reports or requests please submit an [submit 
 ## Contact
 Feel free to contact me to discuss any issues, questions or comments.
 * GitHub: [madepass](https://github.com/madepass)
-* Linkedin: [Michael DePass](www.linkedin.com/in/michael-depass)
+* Linkedin: [Michael DePass](https://www.linkedin.com/in/michael-depass/)
 
 
 ## License
